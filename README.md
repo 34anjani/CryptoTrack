@@ -24,6 +24,7 @@ CryptoTrack is a responsive and feature-rich web application that displays real-
 - Backend: Node.js, Express.js  
 - Database: MongoDB (with Mongoose)  
 
+
 📈 Use Cases
   🧑‍💻 Crypto Enthusiasts & Traders
       Stay up-to-date with real-time cryptocurrency prices and set personalized alerts to make timely investment decisions.
