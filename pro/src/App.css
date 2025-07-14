@@ -1,0 +1,199 @@
+/* App container */
+.app {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Header: full width, background, centered text */
+.header {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #f0f0f0;
+  font-size: 2rem;
+  font-weight: 700;
+  user-select: none;
+  text-align: center;  /* centers the heading text */
+  position: relative;  /* needed if you want relative positioning inside */
+  margin-bottom: 10px;
+}
+
+/* Logout container fixed top-right */
+.logout-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Logout button styling */
+.logout-button {
+  padding: 8px 1px;
+  font-size: 14px;
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #d9363e;
+}
+
+/* Controls */
+.controls {
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Crypto container using CSS Grid */
+.crypto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Each crypto card */
+.crypto-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* On hover */
+.crypto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Alert input + button beside each other */
+.alert-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.alert-section input {
+  flex: 1;
+  padding: 6px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.alert-section button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alert-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .crypto-card {
+    width: 100%;
+  }
+
+  .alert-section {
+    flex-direction: column;
+  }
+
+  .alert-section button {
+    width: 100%;
+  }
+}
+
+/* Pagination Controls */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.pagination button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: #f1f1f1;
+}
+.logout-container {
+  /* Remove position fixed and related properties */
+  position: static; /* or just remove this entire rule */
+  top: auto;
+  right: auto;
+  z-index: auto;
+  margin-bottom: 2px; /* optional, add some spacing */
+  text-align: right; /* aligns button right inside container */
+  padding: 0px 0px;
+}
+
+
+.logout-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e04343;
+}
+/* Reduce top padding of app */
+.app {
+  padding: 10px 20px 20px 20px; /* only top padding reduced from 20px to 10px */
+}
+
+/* Remove default margin from h1 inside header */
+.header h1 {
+  margin-top: 0; /* removes extra space above heading */
+}
+
+/* Optional: adjust header padding */
+.header {
+  padding: 10px 0; /* reduce padding top and bottom */
+}
+
+
+
