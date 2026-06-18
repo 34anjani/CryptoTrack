@@ -6,31 +6,31 @@ CryptoTrack – Real Time Cryptocurrency Tracker
    
       💰 Real-Time Prices 
       
-         View the latest prices of the top 100 cryptocurrencies in INR, EUR, and USD.
+          View the latest prices of the top 100 cryptocurrencies in INR, EUR, and USD.
          
       🔔 Price Alerts  
       
-         Set custom alerts for any coin. Receive browser notifications when a coin reaches your target price.
+          Set custom alerts for any coin. Receive browser notifications when a coin reaches your target price.
          
       📊 Interactive Charts  
       
-         Visualize 7-day price history of individual coins using dynamic line charts.
+          Visualize 7-day price history of individual coins using dynamic line charts.
          
       🗂️ Offline Data  
       
-         Download CSV files of real-time prices or historical chart data for offline analysis.
+          Download CSV files of real-time prices or historical chart data for offline analysis.
          
       🔐 User Authentication  
       
-         Sign up, log in securely, and manage personal alerts.
+          Sign up, log in securely, and manage personal alerts.
          
       🔄 Auto-Refresh  
       
-         Coin data refreshes every 30 seconds for accurate tracking.
+          Coin data refreshes every 30 seconds for accurate tracking.
          
       🌐 Multi-Currency Support  
       
-         Switch between INR, USD, and EUR in a single click.
+          Switch between INR, USD, and EUR in a single click.
 
 
 🛠️ Tech Stack
