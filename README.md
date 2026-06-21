@@ -10,7 +10,7 @@ CryptoTrack – Real Time Cryptocurrency Tracker
          
       🔔 Price Alerts  
       
-          Set custom alerts for any coin. Receive browser notifications when a coin reaches your target price.
+          Set custom alerts for any coin. Receives browser notifications when a coin reaches the target price.
          
       📊 Interactive Charts  
       
