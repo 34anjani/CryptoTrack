@@ -66,18 +66,18 @@ CryptoTrack is a responsive and feature-rich web application that displays real-
        ```
      - Or use MongoDB Atlas (cloud) and update the connection string in the server config
   
-  6. Start the backend server
+  5. Start the backend server
      ```bash
      cd server
      node index.js
      ```
   
-  7. Start the frontend
+  6. Start the frontend
       ```bash
      cd ../pro
      npm start
       ```
   
-  8. Open in browser
+  7. Open in browser
   
      http://localhost:3000
