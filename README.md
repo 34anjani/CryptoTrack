@@ -3,8 +3,8 @@
  ## 📌 Overview
   
 CryptoTrack is a responsive and feature-rich web application that displays real-time cryptocurrency prices in INR, EUR, and USD. It offers powerful tools for tracking, analyzing, and staying updated with your favorite coins.
-  
-  ---
+ 
+---
   
 ## 🚀 Features
   
@@ -15,15 +15,15 @@ CryptoTrack is a responsive and feature-rich web application that displays real-
 * **🔐 User Authentication** - Sign up, log in securely, and manage personal alerts.
 * **🔄 Auto-Refresh** - Coin data refreshes every 30 seconds for accurate tracking.
 * **🌐 Multi-Currency Support** - Switch between INR, USD, and EUR in a single click.
-  
-  ---
+
+---
 ## 🛠️ Tech Stack
   
 * Frontend: React.js, Chart.js, Toastify
 * Backend: Node.js, Express.js
 * Database: MongoDB (with Mongoose)  
   
-  ---
+---
   
 ## 📈 Use Cases
   
@@ -35,7 +35,7 @@ CryptoTrack is a responsive and feature-rich web application that displays real-
 * **🧪 Developers & Data Scientists** - Use the exported data to test trading algorithms or analyze historical coin movements in academic or hobby projects.
 * **🔐 Registered Users** - Create a secure account to manage personal alert settings and access a personalized coin-tracking experience.
   
-  ---
+---
 
 ## 🚀 How to Run
   
@@ -57,8 +57,13 @@ CryptoTrack is a responsive and feature-rich web application that displays real-
      npm install
    ```
   
-  4. Set up MongoDB
-    - Make sure MongoDB is running locally or provide your MongoDB connection string in the server config
+   4. Set up MongoDB
+     - Download and install MongoDB from [mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+     - Start the MongoDB server
+       ```bash
+       mongod
+       ```
+    - Or use MongoDB Atlas (cloud) and update the connection string in the server config
   
   5. Start the backend server
      ```bash
