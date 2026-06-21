@@ -46,37 +46,38 @@ CryptoTrack is a responsive and feature-rich web application that displays real-
      ```
   
   2. Install frontend dependencies
-   ```bash
+     ```bash
      cd pro
      npm install
-    ```
+      ```
   
   3. Install backend dependencies
-   ```bash
+     ```bash
      cd ../server
      npm install
-   ```
+     ```
   
    4. Set up MongoDB
+      
      - Download and install MongoDB from [mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
      - Start the MongoDB server
-     ```bash
+       ```bash
        mongod
-     ```
+       ```
      - Or use MongoDB Atlas (cloud) and update the connection string in the server config
   
-  5. Start the backend server
+  6. Start the backend server
      ```bash
      cd server
      node index.js
      ```
   
-  6. Start the frontend
+  7. Start the frontend
       ```bash
      cd ../pro
      npm start
       ```
   
-  7. Open in browser
+  8. Open in browser
   
      http://localhost:3000
