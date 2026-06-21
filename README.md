@@ -18,9 +18,9 @@
 ---
 ## 🛠️ Tech Stack
   
-* Frontend: React.js, Chart.js, Toastify
-* Backend: Node.js, Express.js
-* Database: MongoDB (with Mongoose)  
+* **Frontend**: React.js, Chart.js, Toastify
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB (with Mongoose)  
   
 ---
   
