@@ -1,7 +1,7 @@
  # CryptoTrack – Real Time Cryptocurrency Tracker
 
  ## 📌 Overview
-CryptoTrack is a full-stack web application that displays real-time prices of the top 100 cryptocurrencies in INR, EUR, and USD with auto-refresh option every 30 seconds. Users can set custom price alerts with browser notifications, visualize 7-day price history through interactive line charts, and download CSV files for offline analysis. The app features secure user authentication for managing personal alerts, and supports multi-currency switching in a single click. Built with React.js on the frontend, Node.js and Express.js on the backend, and MongoDB for storing user data and alert configurations.
+CryptoTrack is a full-stack web application that displays real-time prices of the top 100 cryptocurrencies in INR, EUR, and USD with auto refresh option every 30 seconds. Users can set custom price alerts with browser notifications, visualize 7-day price history through interactive line charts, and download CSV files for offline analysis. The app features secure user authentication for managing personal alerts, and supports multi-currency switching in a single click. Built with React.js on the frontend, Node.js and Express.js on the backend, and MongoDB for storing user data and alert configurations.
  
 ---
   
